@@ -89,10 +89,13 @@ body {
 .svgButton:hover {
     fill: aliceblue;
 }
-a{
+
+a {
     color: aliceblue;
-  text-decoration: none; /* no underline */
+    text-decoration: none;
+    /* no underline */
 }
+
 .a-00 {
     margin-left: 100px;
 }
@@ -175,9 +178,7 @@ a{
 
 .Section02 {
     margin: 0;
-    background-image: url(/img/aboutbk);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #1f5557
 }
 
 .Rcontent {
@@ -196,15 +197,26 @@ a{
         "Profile Rcontent"
 }
 
-.Profile img {
+.ProfilePhoto {
     display: block;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top: 50%;
+    margin-left: 10%;
+    width: 15%;
+    margin-top: 20%;
     border: 30px solid transparent;
     box-shadow: 0 0 0 4px #fff;
+    z-index: 1;
+    position: absolute;
+}
+
+.ProfileBk {
+    position: relative;
+    display: block;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+
 }
 
 .Rcontent {
@@ -462,9 +474,11 @@ a{
     letter-spacing: 5px;
     line-height: 50px;
 }
-.Pp:hover{
+
+.Pp:hover {
     font-weight: 600;
 }
+
 .ProImg {
     display: block;
     width: 100%;
@@ -740,14 +754,26 @@ Footer p {
             "Rcontent"
     }
 
-    .Profile img {
+    .ProfilePhoto {
         display: block;
         border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        margin-top: 90px;
-        margin-bottom: 30px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 35%;
+        margin-top: 20%;
+        border: 20px solid transparent;
+        box-shadow: 0 0 0 4px #fff;
+        z-index: 1;
+        position: relative;
+    }
+
+    .ProfileBk {
+        display: none;
+        z-index: 0;
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+
     }
 
     .S2h-01 {
@@ -850,9 +876,11 @@ Footer p {
     .Ph {
         margin-top: 70px;
     }
-    .Pp{
+
+    .Pp {
         margin: 0px;
     }
+
     .a-03 {
         margin-left: auto;
     }
@@ -930,3 +958,4 @@ green:#1f5557
 blue:#002638
 pink:#F6CABE
      */
+
