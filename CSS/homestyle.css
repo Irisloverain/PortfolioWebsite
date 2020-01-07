@@ -97,7 +97,7 @@ a {
 }
 
 .a-00 {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .a-01 {
@@ -150,7 +150,7 @@ a {
 .S1h-01 {
     font-family: 'Varela', sans-serif;
     margin-top: 150px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-bottom: 0px;
     font-weight: 400;
     font-size: 7.5vw;
@@ -159,7 +159,7 @@ a {
 
 .S1p-01 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 70px;
+    margin-left: 90px;
     font-weight: 400;
     font-size: 2.6vw;
     letter-spacing: 5px;
@@ -167,9 +167,9 @@ a {
 
 .S1p-02 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-bottom: 80px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5vw;
     letter-spacing: 5px;
     line-height: 50px;
@@ -228,14 +228,14 @@ a {
 
 .S2h-01 {
     margin-top: 100px;
-    margin-left:90px;
+    margin-left: 80px;
     font-weight: 600;
     font-size: 50px;
     letter-spacing: 10px;
 }
 
 .S2p-01 {
-    margin-left: 90px;
+    margin-left: 80px;
     font-size: 1.5vw;
     letter-spacing: 5px;
     line-height: 50px;
@@ -422,7 +422,7 @@ a {
     margin-right: 40px;
     margin-top: 300px;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 10px;
 }
 
@@ -460,8 +460,8 @@ a {
 
 .Ph {
     font-family: 'Lato', sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 35px;
+    margin-right: 50px;
     margin-top: 300px;
     font-weight: 400;
     font-size: 80px;
@@ -472,7 +472,10 @@ a {
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 5px;
-    line-height: 50px;
+    line-height: 30px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 30px;
 }
 
 .Pp:hover {
@@ -589,6 +592,9 @@ Footer p {
 
 /*for mobile*/
 @media (max-width: 600px) {
+    body{
+        width: 100%;
+    }
     .row {
         float: none;
         margin: 0px;
@@ -851,7 +857,7 @@ Footer p {
         text-align: center;
         margin-top: 100px;
         font-weight: 400;
-        font-size: 70px;
+        font-size: 50px;
         letter-spacing: 10px;
         margin-bottom: 20px;
     }
@@ -869,19 +875,24 @@ Footer p {
     }
 
     .ProSidebar {
-        width: 100%;
         height: auto;
+    }
+    .ProImg{
+        width: 500px;
     }
 
     .Ph {
         margin-top: 70px;
+        margin-bottom: 40px;
     }
 
     .Pp {
         margin: 0px;
+        margin-bottom: 15px;
     }
 
     .a-03 {
+        margin-top: 100px;
         margin-left: auto;
     }
 
@@ -948,6 +959,9 @@ Footer p {
         height: 120px;
         object-fit: contain;
     }
+    .Fp{
+        font-size: 20px
+    }
 }
 
 /*fortablet*/
@@ -958,4 +972,3 @@ green:#1f5557
 blue:#002638
 pink:#F6CABE
      */
-
